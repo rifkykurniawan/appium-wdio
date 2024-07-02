@@ -1,0 +1,5 @@
+#apk files
+*.apk
+
+#node.js
+node_modules/
