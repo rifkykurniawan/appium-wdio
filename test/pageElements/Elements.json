@@ -1,0 +1,11 @@
+{
+    "loginPageElements":{
+        "welcomeText":"//android.widget.TextView[@text='Welcome to the ']",
+        "yoripeText":"//android.widget.TextView[@resource-id='auth_title_bold']",
+        "authPhoneButton": "//android.widget.Button[@resource-id='auth_phone_btn']",
+        "emailTextField":"//android.widget.EditText[@resource-id='auth_email_input']"
+    },
+    "openAppElements":{
+        "appID":"~YoRipe"
+    }
+}
