@@ -2,8 +2,19 @@
     "loginPageElements":{
         "welcomeText":"//android.widget.TextView[@text='Welcome to the ']",
         "yoripeText":"//android.widget.TextView[@resource-id='auth_title_bold']",
-        "authPhoneButton": "//android.widget.Button[@resource-id='auth_phone_btn']",
-        "emailTextField":"//android.widget.EditText[@resource-id='auth_email_input']"
+        "continueWithEmail": "//android.widget.Button[@resource-id='auth_email_btn']",
+        "emailTextField":"//android.widget.EditText[@resource-id='auth_email_input']",
+        "continueButton":"//android.widget.Button[@resource-id='auth_continue_btn']"
+    },
+    "OTPCodePage":{
+        "pageTitle":"//android.widget.TextView[@resource-id='auth_otp_title']",
+        "otp1":"(//android.widget.EditText[@resource-id='textInput'])[1]",
+        "otp2":"(//android.widget.EditText[@resource-id='textInput'])[2]",
+        "otp3":"(//android.widget.EditText[@resource-id='textInput'])[3]",
+        "otp4":"(//android.widget.EditText[@resource-id='textInput'])[4]",
+        "sendOtpButton":"//android.widget.Button[@resource-id='auth_confirm_otp_btn']"
+        
+
     },
     "openAppElements":{
         "appID":"~YoRipe"
