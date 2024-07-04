@@ -15,6 +15,9 @@ class loginPage{
     get continueButton(){
         return $(elements.loginPageElements.continueButton)
     }
+    get invalidEmailToast(){
+        return $(elements.loginPageElements.invalidEmailToast)
+    }
 
 }
 module.exports = new loginPage()

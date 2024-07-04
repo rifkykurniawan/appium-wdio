@@ -4,7 +4,8 @@
         "yoripeText":"//android.widget.TextView[@resource-id='auth_title_bold']",
         "continueWithEmail": "//android.widget.Button[@resource-id='auth_email_btn']",
         "emailTextField":"//android.widget.EditText[@resource-id='auth_email_input']",
-        "continueButton":"//android.widget.Button[@resource-id='auth_continue_btn']"
+        "continueButton":"//android.widget.Button[@resource-id='auth_continue_btn']",
+        "invalidEmailToast":"//android.widget.TextView[@text='Email is Invalid']"
     },
     "OTPCodePage":{
         "pageTitle":"//android.widget.TextView[@resource-id='auth_otp_title']",
@@ -12,9 +13,8 @@
         "otp2":"(//android.widget.EditText[@resource-id='textInput'])[2]",
         "otp3":"(//android.widget.EditText[@resource-id='textInput'])[3]",
         "otp4":"(//android.widget.EditText[@resource-id='textInput'])[4]",
-        "sendOtpButton":"//android.widget.Button[@resource-id='auth_confirm_otp_btn']"
-        
-
+        "sendOtpButton":"//android.widget.Button[@resource-id='auth_confirm_otp_btn']",
+        "invalidOtpToast":"//android.widget.TextView[@text='OTP code invalid']"
     },
     "openAppElements":{
         "appID":"~YoRipe"

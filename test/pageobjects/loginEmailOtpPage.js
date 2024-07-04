@@ -19,6 +19,9 @@ class loginEmailOtpPage{
     get sendOtpButton(){
         return $(elements.OTPCodePage.sendOtpButton)
     }
+    get invalidOtpToast(){
+        return $(elements.OTPCodePage.invalidOtpToast)
+    }
 
 
     async emailOTP (otp1, otp2, otp3, otp4){
