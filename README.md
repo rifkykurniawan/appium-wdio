@@ -6,5 +6,5 @@ npm i -D ts-node
 ```
 If you want to run specific "IT" block
 ```bash
-npx wdio run wdio.conf.js --spec "./test/specs/test.e2e.js" --mochaOpts.grep "verify OTP code verification page"
+npx wdio run wdio.conf.js --spec "./test/specs/test.e2e.js" --mochaOpts.grep "Failed login with invalid email"
 ```
