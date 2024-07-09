@@ -1,11 +1,11 @@
 # Appium + WebDriver IO (Android)
 
 ### General system requirements
-* NodeJs
-* Appium
-* UiAutomator2
-* Android Emulator
-* JDK
+* [NodeJs](https://nodejs.org/en)
+* [Appium](https://appium.io/docs/en/latest/quickstart/install/)
+* [UiAutomator2](https://www.npmjs.com/package/appium-uiautomator2-driver)
+* [Android Emulator](https://developer.android.com/studio?gad_source=1&gclid=CjwKCAjwnK60BhA9EiwAmpHZw-c6gZjqeExIEHFMDgEqPcALSF8khoR6m_EZa7X2G1g8BVdgyR2OABoCoBcQAvD_BwE&gclsrc=aw.ds)
+* [JDK](https://www.oracle.com/id/java/technologies/downloads/#jdk22-windows)
 * [Appium Inspector](https://github.com/appium/appium-inspector)
 
 ### Install NodeJS
