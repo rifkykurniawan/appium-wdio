@@ -14,7 +14,7 @@ describe('Login Page', () => {
         await phoneApp.terminateApp()
     })
     it('verify OTP code verification page', async () => {
-        await loginPage.emailTextField.setValue('qa@yoripe.com')        
+        await loginPage.emailTextField.setValue('validemail@gmail.com')        
         await loginPage.continueButton.click()
         await driver.pause(5000) 
         await expect(emailOtpPage.pageTitle).toHaveText('OTP code verification')
@@ -39,7 +39,7 @@ describe('Login Page', () => {
     });
     it('login with valid email', async() => {
         await expect(loginPage.emailTextField).toHaveText('Enter your Email..')
-        await loginPage.emailTextField.setValue('qa@yoripe.com')        
+        await loginPage.emailTextField.setValue('validemail@gmail.com') //change this with valid email later       
         await loginPage.continueButton.click()
         await expect(emailOtpPage.sendOtpButton).toBeDisabled()
         await emailOtpPage.emailOTP('0','0','0','0')
